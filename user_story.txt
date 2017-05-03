@@ -1,0 +1,54 @@
+User story:
+The user enters the page. He sees a selection of games that he can play: chess or go
+He selects chess and is brought to the chess subsection of the site: /chess
+He is presented with a menu to enter an temporary alias which his friends can search him by.
+He sees the currently on going games between players (all of which are guests)
+He decides to take a look at one of the games and clicks on one of the displayed games.
+He is now a spectator of the game and is able to communicate with other spectators of the game but not directly with the players themselves.
+He exits by clicking on the home button where he returns to the original screen.
+He wants to watch a game between his two friends, and he knows their aliases. He searches for the game between them by their names and narrows down the game through an id given by his friends.
+After watching, he wants to play a game with the chess engine but first, he needs a refresher on the rules.
+He clicks on the "learn" tab and is brought to a step-by-step guide on chess as well as a cheatsheet.
+He returns to the home page and clicks the play button.
+A menu covers blurs the screen and has a tabbed menu, single-player or two-player.
+He selects single-player and proceeds to setup the engine difficulty, handicap and other settings.
+He clicks play game and is brought to the chess board.
+The id of the game is displayed on the top of the screen.
+The moves of the game is listed on the right side, with the formats for exporting available as well
+After the game, he looks through the review of the game done by the chess engine.
+He starts a new game to play with a friend, selecting two-player now in the tabbed menu and setting up the game.
+He is brought to the chess board where he is given a link to give his friend.
+His friend joins in and starts the game.
+They chat through the game's chat system.
+He can see the number of spectators in his game as well.
+At the end of the game, he is given a choice to have a rematch
+
+
+Concise user story of different roles:
+As a new player, I can learn to play the game on each subsection of the site.
+I can access self-learning tutorial on how to play the game.
+
+As a game spectator, I can watch games on each subsection of the site.
+I can find the game I want to see based on:
+    unique game ids
+    alias of players playing
+    number of players
+After joining a game, I can chat with other spectators but not with the players.
+
+As a solo player, I can play with the engine on the each subsection of the site.
+I can see the id of the game I am playing
+I can adjust the engine before playing.
+I can see the people spectating the game.
+I can review the game afterwards through engine analysis.
+I can export the game.
+
+As a player who wants to play with another friend, I can play together with my friend on each subsection of the site.
+I can adjust the game settings before playing.
+My friend can join through a url provided.
+The game is only put up on display after my friend has joined.
+I can see the id of the game I am playing
+I can see the people spectating the game.
+I can chat with my friend playing but not the spectators
+I can review the game afterwards through engine analysis.
+I can export the game.
+I can choose the rematch after the game.
